@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Time Logger</h1>
+
+
+   <div class="container">
+    <div class="timer-div">
+    
+        <div>
+            <button id='toggle' class="button">start</button>
+            <p id='count' class="count">0</p>
+            <!-- <button id='clear' class="button">Clear</button> -->
+        </div>
+    </div>
+
+    <form action="" id="form">
+        <label for="Task">Task:</label>
+        <br>
+        <input type="text" name="Task" id="Task">
+        <br>
+        <label for="Description">Description:</label>
+        <br>
+    
+        <input type="text" name="Description" id="desc">
+        <br>
+        <!-- <label for="Duration">Duration:</label>
+        <br>
+        <input type="text" name="Duration" id="dur"> -->
+        <br>
+        <button type="button" class="button" id="dlt">Delete</button>
+    
+    </form>
+
+    <br>
+
+    
+   </div>
+   <br>
+   <br>
+   <table id="table">
+    <tr>
+        <th>Task</th>
+        <th>Description</th>
+        <th>Duration(s)</th>
+
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>ppt</td>
+        <td>2000</td>
+    </tr>
+
+    <tr>
+        <td>2</td>
+        <td>word</td>
+        <td>10000</td>
+    </tr>
+
+    <tr>
+        <td>3</td>
+        <td>excel</td>
+        <td>30000</td>
+    </tr>
+</table>
+
+
+    
+</body>
+<script src="script.js"></script>
+</html>
